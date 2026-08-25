@@ -1,0 +1,7 @@
+name,district,state,latitude,longitude,emergency_available,contact
+Patna Emergency Hospital,Patna,Bihar,25.6000,85.1450,True,112
+Guwahati General Hospital,Guwahati,Assam,26.1500,91.7450,True,112
+Delhi Emergency Hospital,Delhi,Delhi,28.6200,77.2100,True,112
+Mumbai General Hospital,Mumbai,Maharashtra,19.0800,72.8800,True,112
+Chennai Emergency Hospital,Chennai,Tamil Nadu,13.0850,80.2750,True,112
+Bhubaneswar General Hospital,Bhubaneswar,Odisha,20.3000,85.8300,True,112

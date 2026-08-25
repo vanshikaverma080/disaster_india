@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071016" />
+  <title>ClimateGuard India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="/static/styles.css?v=roadroute2" />
+</head>
+<body>
+  <div id="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><span class="brand-mark">◆</span><span>Climate<span class="accent">Guard</span></span><button id="collapse" class="icon-btn">☰</button></div>
+      <div class="side-label">COMMAND CENTER</div>
+      <nav id="nav">
+        <button data-page="dashboard" class="nav-item active">▦ <span>Dashboard</span></button>
+        <button data-page="predict" class="nav-item">● <span>Predict</span></button>
+        <button data-page="evacuate" class="nav-item">↗ <span>Evacuate</span></button>
+        <button data-page="about" class="nav-item">ⓘ <span>About</span></button>
+      </nav>
+      <div class="side-label">HAZARD FILTER</div>
+      <div id="hazards" class="hazards"></div>
+      <div class="sidebar-bottom"><small>INDIA MULTI-HAZARD SYSTEM</small><span id="apiStatus">● API checking...</span></div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar"><div><div class="eyebrow">NATIONAL DISASTER INTELLIGENCE</div><h1 id="pageTitle">Dashboard</h1></div><div class="top-actions"><span id="clock" class="mono"></span><button id="accountBtn" class="ghost">Account</button></div></header>
+      <div id="view"></div>
+    </main>
+  </div>
+
+  <div id="chat" class="chat-panel hidden"><div class="chat-head"><b>ClimateGuard AI</b><button id="chatClose">×</button></div><div id="chatMessages" class="chat-messages"><div class="bot">Ask about hazards, prediction, alerts or evacuation.</div></div><form id="chatForm"><input id="chatInput" placeholder="Ask a question..." autocomplete="off"><button>Send</button></form></div>
+  <button id="chatFab" class="chat-fab">AI</button>
+  <div id="modal" class="modal hidden"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+  <script src="/static/app.js?v=roadroute2"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+date,disaster_type,district,state,latitude,longitude,rainfall_mm,temperature_c,humidity_pct,wind_speed_kmh,magnitude,affected_population,severity
+2022-07-15,Flood,Patna,Bihar,25.5941,85.1376,240,30,92,28,0,120000,CRITICAL
+2023-08-10,Flood,Guwahati,Assam,26.1445,91.7362,180,29,90,24,0,85000,HIGH
+2021-05-20,Cyclone,Bhubaneswar,Odisha,20.2961,85.8245,90,31,84,135,0,210000,CRITICAL
+2024-01-01,Earthquake,Srinagar,Jammu and Kashmir,34.0837,74.7973,5,8,65,18,5.8,18000,HIGH
+2023-04-03,Wildfire,Dehradun,Uttarakhand,30.3165,78.0322,0,36,22,18,0,9000,HIGH
+2022-06-12,Heatwave,Delhi,Delhi,28.6139,77.2090,0,46,28,20,0,45000,HIGH
+2024-07-18,Flood,Mumbai,Maharashtra,19.0760,72.8777,210,28,95,35,0,150000,CRITICAL
+2023-09-05,Flood,Chennai,Tamil Nadu,13.0827,80.2707,160,30,88,40,0,75000,HIGH
+2022-10-14,Cyclone,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,110,29,86,115,0,90000,CRITICAL
+2024-03-25,Wildfire,Shimla,Himachal Pradesh,31.1048,77.1734,0,32,25,16,0,5000,MEDIUM
+2020-07-22,Flood,Patna,Bihar,25.5941,85.1376,205,31,89,26,0,95000,HIGH
+2019-08-03,Flood,Prayagraj,Uttar Pradesh,25.4358,81.8463,170,30,86,22,0,62000,HIGH
+2021-07-29,Flood,Varanasi,Uttar Pradesh,25.3176,82.9739,155,31,84,20,0,41000,MEDIUM
+2020-09-12,Flood,Kolkata,West Bengal,22.5726,88.3639,185,30,91,32,0,70000,HIGH
+2022-08-28,Flood,Kochi,Kerala,9.9312,76.2673,195,28,93,36,0,55000,HIGH
+2023-07-20,Flood,Thiruvananthapuram,Kerala,8.5241,76.9366,165,28,90,30,0,34000,MEDIUM
+2024-06-30,Flood,Surat,Gujarat,21.1702,72.8311,175,31,87,29,0,52000,HIGH
+2021-09-02,Flood,Vijayawada,Andhra Pradesh,16.5062,80.6480,145,30,85,27,0,38000,MEDIUM
+2020-05-21,Cyclone,Kolkata,West Bengal,22.5726,88.3639,130,29,88,125,0,180000,CRITICAL
+2021-05-26,Cyclone,Bhubaneswar,Odisha,20.2961,85.8245,115,30,86,118,0,125000,CRITICAL
+2023-06-15,Cyclone,Surat,Gujarat,21.1702,72.8311,80,32,82,88,0,48000,HIGH
+2022-11-10,Cyclone,Chennai,Tamil Nadu,13.0827,80.2707,95,29,87,92,0,60000,HIGH
+2024-04-12,Wildfire,Dehradun,Uttarakhand,30.3165,78.0322,0,35,24,22,0,12000,HIGH
+2022-04-18,Wildfire,Shimla,Himachal Pradesh,31.1048,77.1734,0,33,28,18,0,6500,MEDIUM
+2023-05-06,Wildfire,Jodhpur,Rajasthan,26.2389,73.0243,0,42,18,24,0,8000,HIGH
+2021-05-14,Wildfire,Bhopal,Madhya Pradesh,23.2599,77.4126,2,39,26,20,0,7000,MEDIUM
+2024-01-10,Earthquake,Srinagar,Jammu and Kashmir,34.0837,74.7973,12,7,68,15,5.2,9000,MEDIUM
+2022-02-08,Earthquake,Dehradun,Uttarakhand,30.3165,78.0322,8,12,62,12,4.9,6000,MEDIUM
+2021-04-28,Earthquake,Guwahati,Assam,26.1445,91.7362,20,27,78,14,6.0,22000,HIGH
+2023-11-06,Earthquake,Ahmedabad,Gujarat,23.0225,72.5714,0,29,48,10,4.7,3500,MEDIUM
+2024-05-28,Heatwave,Delhi,Delhi,28.6139,77.2090,0,47,24,18,0,65000,CRITICAL
+2023-06-02,Heatwave,Jaipur,Rajasthan,26.9124,75.7873,0,45,20,20,0,42000,HIGH
+2022-05-19,Heatwave,Nagpur,Maharashtra,21.1458,79.0882,0,44,23,16,0,30000,HIGH
+2024-06-04,Heatwave,Raipur,Chhattisgarh,21.2514,81.6296,0,43,26,15,0,26000,HIGH
+2023-07-11,Flood,Lucknow,Uttar Pradesh,26.8467,80.9462,135,31,82,19,0,28000,MEDIUM
+2022-08-16,Flood,Kanpur,Uttar Pradesh,26.4499,80.3319,125,32,80,18,0,23000,MEDIUM
+2024-07-06,Flood,Gaya,Bihar,24.7914,85.0002,150,31,83,21,0,31000,MEDIUM

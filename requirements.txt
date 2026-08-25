@@ -1,0 +1,12 @@
+Django>=5.1,<6
+djangorestframework>=3.15,<4
+django-cors-headers>=4.7,<5
+python-dotenv>=1.0,<2
+requests>=2.32,<3
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+# Optional Jupyter notebook tooling
+jupyterlab>=4.2,<5
+nbformat>=5.10,<6
+matplotlib>=3.9,<4
