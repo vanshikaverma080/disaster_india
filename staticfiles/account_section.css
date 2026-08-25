@@ -1,0 +1,185 @@
+/*
+ * ClimateGuard Account section
+ * IMPORTANT: every selector is scoped under .account-page.
+ * This prevents Account styles from changing Dashboard, Prediction,
+ * Evacuation, Alerts, Map, About and Chatbot pages.
+ */
+.account-page {
+  min-height: 100%;
+  width: 100%;
+  color: var(--text, #e8f4ff);
+}
+
+.account-page,
+.account-page * {
+  box-sizing: border-box;
+}
+
+.account-page .account-shell {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+.account-page .account-header {
+  margin-bottom: 20px;
+}
+
+.account-page .account-title {
+  margin: 0 0 6px;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.account-page .account-subtitle {
+  margin: 0;
+  color: var(--muted, #8fa8bd);
+}
+
+.account-page .account-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.account-page .account-card {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid rgba(88, 180, 255, .20);
+  border-radius: 14px;
+  background: var(--panel, #0c1b2b);
+  box-shadow: 0 10px 30px rgba(0,0,0,.18);
+}
+
+.account-page .account-card--wide {
+  grid-column: 1 / -1;
+}
+
+.account-page .account-label {
+  display: block;
+  margin: 0 0 7px;
+  color: var(--muted, #8fa8bd);
+  font-size: .85rem;
+  font-weight: 600;
+}
+
+.account-page .account-input,
+.account-page .account-select,
+.account-page .account-textarea {
+  display: block;
+  width: 100%;
+  min-height: 42px;
+  padding: 9px 11px;
+  border: 1px solid rgba(88, 180, 255, .20);
+  border-radius: 8px;
+  background: #081522;
+  color: var(--text, #e8f4ff);
+  outline: none;
+}
+
+.account-page .account-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.account-page .account-input:focus,
+.account-page .account-select:focus,
+.account-page .account-textarea:focus {
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56,189,248,.12);
+}
+
+.account-page .account-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.account-page .account-button {
+  appearance: none;
+  border: 1px solid rgba(88, 180, 255, .25);
+  border-radius: 8px;
+  padding: 9px 15px;
+  background: #0b2638;
+  color: #e8f4ff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.account-page .account-button:hover {
+  filter: brightness(1.12);
+}
+
+.account-page .account-button--primary {
+  background: #38bdf8;
+  color: #03111c;
+  border-color: #38bdf8;
+}
+
+.account-page .account-button--danger {
+  background: rgba(220,38,38,.14);
+  border-color: rgba(248,113,113,.35);
+  color: #fecaca;
+}
+
+.account-page .account-message {
+  margin-top: 12px;
+  color: var(--muted, #8fa8bd);
+}
+
+.account-page .account-alert {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(88, 180, 255, .18);
+}
+
+.account-page .account-alert--error {
+  border-color: rgba(248,113,113,.35);
+  color: #fecaca;
+}
+
+.account-page .account-alert--success {
+  border-color: rgba(74,222,128,.30);
+  color: #bbf7d0;
+}
+
+.account-page .account-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0,0,0,.68);
+}
+
+.account-page .account-modal.is-open {
+  display: flex;
+}
+
+.account-page .account-modal-content {
+  width: min(560px, 100%);
+  max-height: min(760px, calc(100vh - 40px));
+  overflow: auto;
+  padding: 22px;
+  border: 1px solid rgba(88,180,255,.22);
+  border-radius: 14px;
+  background: #0b1724;
+}
+
+@media (max-width: 760px) {
+  .account-page .account-shell {
+    width: min(100% - 20px, 1120px);
+    padding-top: 14px;
+  }
+
+  .account-page .account-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .account-page .account-card--wide {
+    grid-column: auto;
+  }
+}
